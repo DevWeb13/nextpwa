@@ -24,6 +24,10 @@ export default function Home() {
         />
         {` `}dans la barre d&apos;adresse de votre navigateur.☝️
       </p>
+      <p>
+        A noter que je n&apos;utilise pas Windows vous n'aurez donc peut etre
+        pas la meme interface que moi.
+      </p>
       <Image
         src='/install2.png'
         alt='Installer 2'
@@ -34,7 +38,15 @@ export default function Home() {
       <p>
         Une fois l&apos;application installée, vous pourrez retrouver
         l&apos;icone de l&apos;application(entierement personnalisable) dans le
-        menu et/ou l&apos;écran d&apos;accueil de votre appareil. <br />
+        menu et/ou l&apos;écran d&apos;accueil de votre appareil.
+      </p>
+      <Image
+        src='/logoLRD-384.png'
+        alt='Logo LRD'
+        width={50}
+        height={50}
+      />
+      <p>
         Le fonctionnement et alors le meme que celui d&apos;une application
         native (provenant d&apos;un store d&apos;application, Android ou iOS).
       </p>
