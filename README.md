@@ -5,6 +5,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Include [PWA](https://ducanh-next-pwa.vercel.app/docs).
 
+Tuto [@YouTube](https://www.youtube.com/watch?v=ixvaNz_XVkg)
+
 ## Getting Started
 
 First, run the development server:
