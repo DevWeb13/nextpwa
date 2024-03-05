@@ -11,10 +11,15 @@ export default function Home() {
         Application PWA (Progressive Web App)
       </h1>
       <p>
-        Ceci est une application web progressive (PWA). Elle est installable sur
-        tous les appareils, qu&apos;ils soient mobiles, tablettes ou
-        ordinateurs, et fonctionne également hors ligne. <br />
-        Pour l&apos;installer, cliquez sur le bouton &quot;Installer&quot;{` `}
+        Ceci est une application web progressive (PWA). Elle peut être installée
+        sur tous les appareils, qu&apos;ils soient mobiles, tablettes ou
+        ordinateurs, et fonctionne également hors ligne.{' '}
+      </p>
+      <h2 className='text-2xl font-bold text-center text-gray-900 mt-8 mb-4'>
+        Installer l&apos;appli sur un PC
+      </h2>
+      <p>
+        Cliquez sur le bouton &quot;Installer&quot;{` `}
         <Image
           src='/install.png'
           alt='Installer'
@@ -25,8 +30,8 @@ export default function Home() {
         {` `}dans la barre d&apos;adresse de votre navigateur.☝️
       </p>
       <p>
-        A noter que je n&apos;utilise pas Windows vous n'aurez donc peut etre
-        pas la meme interface que moi.
+        A noter que je n&apos;utilise pas Windows vous n&apos;aurez donc peut
+        etre pas la meme interface que moi.
       </p>
       <Image
         src='/install2.png'
@@ -47,13 +52,66 @@ export default function Home() {
         height={50}
       />
       <p>
-        Le fonctionnement et alors le meme que celui d&apos;une application
-        native (provenant d&apos;un store d&apos;application, Android ou iOS).
+        Le fonctionnement est alors le meme que celui d&apos;une application de
+        bureau.
       </p>
+      <h2 className='text-2xl font-bold text-center text-gray-900 mt-8 mb-4'>
+        Installer l&apos;appli sur un smartphone ou une tablette (Android ou
+        IOS)
+      </h2>
+      <p>
+        La demo suivante à été éffectué sur Android mais cela fonctionne aussi
+        sur IOS.
+      </p>
+      <p>
+        Au chargement de la page web une notification vous propose
+        d&apos;installer l&apos;application.
+      </p>
+      <Image
+        src='/onLoad.png'
+        alt='Logo LRD'
+        width={250}
+        height={250}
+      />
+      <p>
+        Sinon accéder au menu de votre navigateur en cliquant sur les trois
+        petit points en haut à droite de votre écran.
+        <br /> Puis cliquer sur &quot;Installer l&apos;application&quot;.
+      </p>
+      <Image
+        src='/menu.png'
+        alt='Logo LRD'
+        width={250}
+        height={250}
+      />
+
+      <Image
+        src='/confirm.png'
+        alt='Logo LRD'
+        width={250}
+        height={250}
+      />
+      <p>
+        Une fois l&apos;application installée, vous pourrez retrouver
+        l&apos;icone de l&apos;application(entierement personnalisable) sur
+        l&apos;écran d&apos;accueil de votre appareil.
+      </p>
+      <Image
+        src='/homeScreen.png'
+        alt='Logo LRD'
+        width={250}
+        height={250}
+      />
+
+      <p>
+        Le fonctionnement est alors le meme que celui d&apos;une application
+        native mobile.
+      </p>
+
       <h2 className='text-2xl font-bold text-center text-gray-900 mt-8 mb-4'>
         Avantages des PWA :
       </h2>
-      <ul>
+      <ul className='text-lg text-gray-900 list-disc list-inside w-full max-w-md mx-auto flex flex-col gap-8'>
         <li>
           Installation rapide et simple, sans passer par un store
           d&apos;application
